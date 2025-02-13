@@ -1,0 +1,10 @@
+services:
+  morpion:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - game-results:/usr/share/nginx/html/game-data
+
+volumes:
+  game-results:
