@@ -100,14 +100,8 @@ docker-compose exec morpion ls -l /usr/share/nginx/html/game-data
 - [Docker Compose](https://docs.docker.com/compose/)
 ## 🖼 Captures d'Écran
 
-### Interface du Jeu
 ![Interface du Morpion](./public/screenshots/tic.png)  
-*Écran principal du jeu avec grille interactive*
 
-### Résultats dans Docker Desktop
 ![Gestion des volumes](./public/screenshots/tac.png)  
-*Visualisation du volume et des fichiers dans Docker Desktop*
 
-### Résultats JSON
 ![Données persistantes](./public/screenshots/to.png)  
-*Contenu du fichier results.json après plusieurs parties*
